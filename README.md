@@ -1,23 +1,45 @@
-My Portfolio
 
-Project Name Personal Portfolio Website
+# Personal Portfolio Website
 
-About This is my basic personal portfolio website.
+A simple personal portfolio website created
+using HTML, CSS and JavaScript.
 
-Technologies Used
+## Student Details
 
-HTML
-CSS
-JavaScript
-Git
-GitHub
-Features
+- Name: Pratik Lakade
+- URN: E25B031507
+- Semester: 3
+- Section: A
 
-Personal information
-Education details
-Skills
-Contact details
-JavaScript button interaction
-Created By Pratik Lakade
+## About the Project
 
-Purpose Created for Git and GitHub practical examination.
+This is my personal portfolio website developed
+as part of my Git and GitHub practical.
+
+It gives a short introduction about me, my
+technical skills and the projects I have worked on.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+
+## Website Sections
+
+- About Me
+- My Skills
+- Projects
+
+## Project Files
+
+- index.html – Main webpage
+- style.css – Website design
+- script.js – JavaScript code
+- README.md – Project information
+
+## Created By
+
+Pratik Lakade
