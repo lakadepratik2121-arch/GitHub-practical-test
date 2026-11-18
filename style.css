@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #29283b;
+}
+
+main {
+    max-width: 780px;
+    margin: 90px auto;
+    padding: 0 25px;
+}
+
+.small-line {
+    width: 120px;
+    height: 10px;
+    background: #302f43;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro h1 {
+    font-size: 55px;
+    line-height: 1.05;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+}
+
+.intro-text {
+    display: flex;
+    gap: 65px;
+}
+
+.intro-text p {
+    font-size: 9px;
+    line-height: 1.8;
+}
+
+.symbol {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.mountain {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-bottom: 45px solid #536b92;
+}
+
+.sun {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 9px;
+    height: 9px;
+    background: #e7b64e;
+    border-radius: 50%;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 65px;
+    margin-top: 90px;
+}
+
+.detail-box {
+    text-align: center;
+}
+
+.icon {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.detail-box h3 {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 8px 0;
+    font-size: 10px;
+}
+
+.detail-box p {
+    font-size: 10px;
+    line-height: 1.8;
+    margin-top: 12px;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 50px auto;
+    }
+
+    .intro h1 {
+        font-size: 38px;
+    }
+
+    .intro-text {
+        gap: 20px;
+    }
+
+    .symbol {
+        transform: scale(0.7);
+    }
+
+    .details {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+}
