@@ -126,3 +126,20 @@ main {
         gap: 35px;
     }
 }
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 45px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #29283b;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #536b92;
+}
